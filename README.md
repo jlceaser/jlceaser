@@ -12,7 +12,7 @@
 
 ---
 
-[![Website](https://img.shields.io/badge/makineceviri.net-111?style=flat-square&logo=cloudflare&logoColor=fff)](https://makineceviri.net)&nbsp;&nbsp;
+[![Website](https://img.shields.io/badge/makineceviri.org-111?style=flat-square&logo=cloudflare&logoColor=fff)](https://makineceviri.org)&nbsp;&nbsp;
 [![Discord](https://img.shields.io/badge/discord-111?style=flat-square&logo=discord&logoColor=fff)](https://discord.com/invite/QDezpy4QtV)&nbsp;&nbsp;
 [![X](https://img.shields.io/badge/@jlceaser-111?style=flat-square&logo=x&logoColor=fff)](https://x.com/jlceaser)
 
