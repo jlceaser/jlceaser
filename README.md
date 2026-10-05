@@ -13,7 +13,9 @@
 ---
 
 [![Website](https://img.shields.io/badge/makineceviri.org-111?style=flat-square&logo=cloudflare&logoColor=fff)](https://makineceviri.org)&nbsp;&nbsp;
-[![Website](https://img.shields.io/badge/cedrainteractive.com-111?style=flat-square&logo=cloudflare&logoColor=fff)](https://makineceviri.org)&nbsp;&nbsp;
+[![Website](https://img.shields.io/badge/cedrainteractive.com-111?style=flat-square&logo=cloudflare&logoColor=fff)](https://cedrainteractive.com)&nbsp;&nbsp;
+[![Website](https://img.shields.io/badge/finetion.com-111?style=flat-square&logo=cloudflare&logoColor=fff)](https://finetion.com)&nbsp;&nbsp;
+[![Website](https://img.shields.io/badge/Sezer_Uzun-111?style=flat-square&logo=githubpages&logoColor=fff)](https://jlceaser.github.io/SezerUzun/)&nbsp;&nbsp;
 [![Discord](https://img.shields.io/badge/discord-111?style=flat-square&logo=discord&logoColor=fff)](https://discord.com/invite/QDezpy4QtV)&nbsp;&nbsp;
 [![X](https://img.shields.io/badge/@jlceaser-111?style=flat-square&logo=x&logoColor=fff)](https://x.com/jlceaser)
 
