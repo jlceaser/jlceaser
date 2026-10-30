@@ -1,0 +1,33 @@
+name: panels
+
+on:
+  schedule:
+    - cron: "7 21 * * *" # 00:07 in Türkiye
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [assets/make_translate.py, assets/make_oneline.py, assets/contrib.py, assets/common.py, assets/fonts/**,
+            .github/workflows/panels.yml]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+      - run: pip install fonttools brotli
+      - run: python assets/make_translate.py dist && python assets/make_oneline.py dist
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Push to the output branch
+        working-directory: dist
+        run: |
+          git init -q -b output
+          git add .
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -qm "panels $(date -u +%F)"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" output
